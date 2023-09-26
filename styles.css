@@ -114,14 +114,22 @@ button {
     font-weight: extra-bold;
     color: #1f2937;
 }
-
 .person {
-    text-align: right;
+     align-self: flex-end; 
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
 }
 
 .info-container {
     display: flex;
     justify-content: center;
-    gap: 52px;
     text-align: center;
+}
+
+.container-4 {
+    display: flex;
+    justify-content: center;
 }
